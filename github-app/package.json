@@ -1,0 +1,26 @@
+{
+  "name": "hchscasey-github-integration",
+  "version": "1.0.0",
+  "description": "HCHSCASEY GitHub Integration webhook server for cross-repo automation",
+  "main": "webhook-server.js",
+  "scripts": {
+    "start": "node webhook-server.js",
+    "dev": "nodemon webhook-server.js",
+    "test": "node test-auth.js"
+  },
+  "keywords": ["github-app", "webhook", "automation", "documentation"],
+  "author": "GlacierEQ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@octokit/rest": "^20.0.2",
+    "@octokit/auth-app": "^6.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Private key
+*.pem
+private-key.pem
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+webhook.log
+
+# OS files
+.DS_Store
+Thumbs.db
